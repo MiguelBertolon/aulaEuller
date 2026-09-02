@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        ,<form id="registrationForm" method="post"></form>
+    <script>
+        document.getElementById('registration')
+        addEventListener('submit', function (event)
+        {
+           event.preventDefault();// impede o comportamento padrão de envio do formulario
+           const nome = document.getElementById('nome').value;
+           alert('Ola, '+nome' cadastro enviado com sucesso');
+        })
+    </script>
+</body>
+</html>
